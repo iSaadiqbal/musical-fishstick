@@ -1,10 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Simple Website!!!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SAAD's WEBSITE </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 2em;
+        }
+
+        nav {
+            background-color: #2ecc71;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2em;
+        }
+
+        .section {
+            background-color: #e74c3c;
+            color: white;
+            padding: 2em;
+            margin: 1em;
+            flex-basis: calc(33.33% - 2em);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #27ae60;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is a basic HTML webpage.</p>
+    <header>
+        <h1>Welcome to Our Colorful and Complex Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="section">
+            <h2>About Us</h2>
+            <p>We are a creative and innovative team dedicated to delivering high-quality solutions.</p>
+        </div>
+        <div class="section">
+            <h2>Our Services</h2>
+            <p>We offer a wide range of services including web design, development, and digital marketing.</p>
+        </div>
+        <div class="section">
+            <h2>Portfolio</h2>
+            <p>Check out some of our latest projects that showcase our skills and expertise.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Colorful and Complex Website. All rights reserved.</p>
+    </footer>
 </body>
 </html>
